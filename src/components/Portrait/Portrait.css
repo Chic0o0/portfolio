@@ -1,0 +1,22 @@
+.Portrait {
+    padding-left: 20%;
+    padding-top: 10%;
+    grid-area: por;
+    color: white;
+    background-image: url("./../../media/image.jpg") ;
+    background-size: cover;
+}
+
+.iconContainer>a{
+    padding-right: 2%;
+}
+
+a{
+    filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%);
+}
+
+@media(min-width:1000px){
+    .Portrait{
+        padding-top: 30%;
+    }
+}
