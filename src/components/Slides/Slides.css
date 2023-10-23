@@ -3,3 +3,23 @@
     background-color: white;
 }
 
+.Slides *{
+    height: 100%;
+}
+
+.Slides svg{
+    height: 40px;
+}
+
+.EachSlide{
+    text-align: center;
+}
+
+.EachSlide * {
+    height: auto;
+}
+
+.Boxes>div{
+    margin: 6%;
+    margin-top: 0%;
+}
