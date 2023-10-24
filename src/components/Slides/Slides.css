@@ -13,13 +13,38 @@
 
 .EachSlide{
     text-align: center;
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none
+}
+
+.EachSlide::-webkit-scrollbar {
+    display: none;
 }
 
 .EachSlide * {
     height: auto;
 }
 
-.Boxes>div{
-    margin: 6%;
+.Boxes{
+    display: grid;
+    grid: "Box Box" / 50% 50%;
+    margin: 5%;
+    margin-bottom: 3%;
     margin-top: 0%;
+}
+
+@media (max-width:1000px){
+    .EachSlide{
+        height: 60vh;
+    }
+}
+
+@media (max-width:700px){
+    .Boxes{
+        grid: "Box" / 100%;
+        margin: 10%;
+        margin-top: 0%;
+    }
 }
