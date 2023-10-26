@@ -94,62 +94,52 @@ const Slides = () => (
             <div className='Boxes'>
                 <Box
                     title={"HTML + CSS + JS"}
-                    subtitle={"Intermediate"}
-                    time={"2-3 years"}
+                    subtitle={"2-3 years"}
                     image={Trio}
                 />
                 <Box
                     title={"PHP"}
-                    subtitle={"Intermediate"}
-                    time={"2 years"}
+                    subtitle={"2 years"}
                     image={PHP}
                 />
                 <Box
                     title={"SQL"}
-                    subtitle={"Intermediate"}
-                    time={"2-3 years"}
+                    subtitle={"2-3 years"}
                     image={SQL}
                 />
                 <Box
                     title={"Git"}
-                    subtitle={"Intermediate"}
-                    time={"2 years"}
+                    subtitle={"2 years"}
                     image={Git}
                 />
                 <Box
                     title={"React, Angular, Vue"}
-                    subtitle={"Beginner"}
-                    time={"2 years"}
+                    subtitle={"2 years"}
                     image={ReactLogo}
                 />
                 <Box
                     title={"Laravel"}
-                    subtitle={"Beginner"}
-                    time={"2 years"}
+                    subtitle={"2 years"}
                     image={Laravel}
                 />
                 <Box
                     title={"Java"}
-                    subtitle={"Beginner"}
-                    time={"2-3 years"}
+                    subtitle={"2-3 years"}
                     image={Java}
                 />
                 <Box
                     title={"Spring"}
-                    subtitle={"Beginner"}
-                    time={"1 year"}
+                    subtitle={"1 year"}
                     image={Spring}
                 />
                 <Box
                     title={"Python"}
-                    subtitle={"Beginner"}
-                    time={"1 year"}
+                    subtitle={"1 year"}
                     image={Python}
                 />
                 <Box
                     title={"Pandas"}
-                    subtitle={"Beginner"}
-                    time={"1 year"}
+                    subtitle={"1 year"}
                     image={Pandas}
                 />
             </div>
