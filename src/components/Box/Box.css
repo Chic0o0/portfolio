@@ -1,11 +1,19 @@
-.Box{
+.Wrapper{
     display: flex;
     flex-direction: column;
-    background-color: #fac89d;
+    background-color: #ffe3a0;
     border-radius: 5px;
     margin: 3%;
+    padding: 2%;
+    align-items: center;
 }
 
-.Box > img {
-    height: 30px;
+.Wrapper > *{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Wrapper img {
+    height: 40px;
+    width: 40px;
 }

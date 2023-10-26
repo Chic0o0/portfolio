@@ -6,13 +6,16 @@ body > #root > div {
   height: 100vh;
 }
 
+a{
+  filter: invert(100%) sepia(100%) saturate(14%) hue-rotate(212deg) brightness(104%) contrast(104%);
+}
+
 .App {
   height: auto;
   text-align: left;
   display: grid;
   grid: "por sli" / 40% 60%;
 }
-
 
 @media (max-width:1000px) {
   .App {

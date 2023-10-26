@@ -3,7 +3,25 @@ import './Slides.css';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import Box from './../Box/Box.js'
-import Icon1 from './../../media/mail.svg'
+import Solera from './../../media/solera-logo-icon.svg'
+import ICAO from './../../media/Icaoviedo.jpg'
+import ASN from './../../media/asn.png'
+import UP from './../../media/upintelligence_logo.jpg'
+import Flemming from './../../media/flemming.jpg'
+import CIDEAD from './../../media/at-sign.svg'
+import Leon from './../../media/Leon.png'
+import Google from './../../media/Google.jpg'
+import Cambridge from './../../media/Cambridge.jpg'
+import Trio from './../../media/triada.jpg'
+import PHP from './../../media/php.png'
+import SQL from './../../media/sql.png'
+import Git from './../../media/Git-Icon-1788C.png'
+import ReactLogo from './../../media/React-icon.svg.png'
+import Laravel from './../../media/laravel.png'
+import Java from './../../media/java_original_logo_icon_146458.png'
+import Spring from './../../media/Spring.png'
+import Python from './../../media/Python-logo-notext.svg.png'
+import Pandas from './../../media/pandas.png'
 
 const buttonStyle = {
     background: 'none',
@@ -20,143 +38,155 @@ const Slides = () => (
   <div className="Slides">
     <Slide autoplay={false} canSwipe={false} {...properties}>
         <div className="EachSlide">
-            <h1>Title1</h1>
+            <h1>Experience</h1>
             <div className='Boxes'>
                 <Box
-                    title={"A"}
-                    image={Icon1}
+                    title={"UpIntelligence"}
+                    subtitle={"Internship"}
+                    time="06/2021 - 08/2021"
+                    image={UP}
                 />
                 <Box
-                    title={"A"}
-                    image={Icon1}
+                    title={"Art Science Node"}
+                    subtitle={"Internship"}
+                    time="05/2022 - 07/2022"
+                    image={ASN}
                 />
                 <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
+                    title={"Solera"}
+                    subtitle={"Bootcamp"}
+                    time="10/2022 - 12/2022"
+                    image={Solera}
                 />
                 <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"A"}
-                    image={Icon1}
-                    text={"Whatever"}
-                />
-                <Box
-                    title={"Final"}
-                    image={Icon1}
-                    text={"Whatever"}
+                    title={"Colegio de Abogados de Oviedo"}
+                    subtitle={"Substitution"}
+                    time="05/2023 - 07/2023"
+                    image={ICAO}
                 />
             </div>
         </div>
         <div className="EachSlide">
-            <h1>Title2</h1>
+            <h1>Projects</h1>
             <div className='Boxes'>
-
+                <Box
+                        title={"BaseProjectPHP + Pixelart"}
+                        subtitle={"Solo"}
+                        text="Project harcoded in PHP, inline styling, some js"
+                        link={"https://github.com/Chic0o0/proyectoBasePHP"}
+                />
+                <Box
+                        title={"findUrPro"}
+                        subtitle={"Solo"}
+                        text="Angular + Laravel, HTTP raw connections"
+                        link={"https://github.com/Chic0o0/findUrPro"}
+                />
+                <Box
+                        title={"ASN roots page"}
+                        subtitle={"Duo"}
+                        text="Interactive webpage in Wordpress alongside designer Weronika Michalska"
+                        link2={"https://artscience-node.com/ourbiotechplanet-future-of-plants-and-humans/"}
+                />
             </div>
         </div>
         <div className="EachSlide">
-            <h1>Title3</h1>
+            <h1>Skills</h1>
             <div className='Boxes'>
-
+                <Box
+                    title={"HTML + CSS + JS"}
+                    subtitle={"Intermediate"}
+                    time={"2-3 years"}
+                    image={Trio}
+                />
+                <Box
+                    title={"PHP"}
+                    subtitle={"Intermediate"}
+                    time={"2 years"}
+                    image={PHP}
+                />
+                <Box
+                    title={"SQL"}
+                    subtitle={"Intermediate"}
+                    time={"2-3 years"}
+                    image={SQL}
+                />
+                <Box
+                    title={"Git"}
+                    subtitle={"Intermediate"}
+                    time={"2 years"}
+                    image={Git}
+                />
+                <Box
+                    title={"React, Angular, Vue"}
+                    subtitle={"Beginner"}
+                    time={"2 years"}
+                    image={ReactLogo}
+                />
+                <Box
+                    title={"Laravel"}
+                    subtitle={"Beginner"}
+                    time={"2 years"}
+                    image={Laravel}
+                />
+                <Box
+                    title={"Java"}
+                    subtitle={"Beginner"}
+                    time={"2-3 years"}
+                    image={Java}
+                />
+                <Box
+                    title={"Spring"}
+                    subtitle={"Beginner"}
+                    time={"1 year"}
+                    image={Spring}
+                />
+                <Box
+                    title={"Python"}
+                    subtitle={"Beginner"}
+                    time={"1 year"}
+                    image={Python}
+                />
+                <Box
+                    title={"Pandas"}
+                    subtitle={"Beginner"}
+                    time={"1 year"}
+                    image={Pandas}
+                />
+            </div>
+        </div>
+        <div className="EachSlide">
+            <h1>Education</h1>
+            <div className='Boxes'>
+                <Box
+                    title={"CFGS - Web Development"}
+                    subtitle={"IES Flemming"}
+                    time="2020 - 2022"
+                    image={Flemming}
+                />
+                <Box
+                    title={"AI & Big Data Specialization"}
+                    subtitle={"CIDEAD"}
+                    time="10/2022 - 04/2023"
+                    image={CIDEAD}
+                />
+                <Box
+                    title={"Google IT automation with Python"}
+                    subtitle={"Google"}
+                    time="11/2022 - 03/2023"
+                    image={Google}
+                />
+                <Box
+                    title={"Cambridge B2 Certificate"}
+                    subtitle={"Cambridge"}
+                    time="06/2019"
+                    image={Cambridge}
+                />
+                <Box
+                    title={"Ciencias de la Actividad Física y el Deporte"}
+                    subtitle={"University of León"}
+                    time="09/2019 - 05/2020"
+                    image={Leon}
+                />
             </div>
         </div>
     </Slide>

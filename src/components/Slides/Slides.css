@@ -11,6 +11,10 @@
     height: 40px;
 }
 
+.Slides a:hover{
+    filter: drop-shadow(3px 3px blue) !important;
+}
+
 .EachSlide{
     text-align: center;
     height: 100vh;
