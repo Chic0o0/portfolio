@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.97988864.css",
-    "main.js": "/portfolio/static/js/main.03b4f35e.js",
+    "main.js": "/portfolio/static/js/main.2b8b0c70.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/image.jpg": "/portfolio/static/media/image.8776d60fd9b645f296eb.jpg",
     "static/media/Python-logo-notext.svg.png": "/portfolio/static/media/Python-logo-notext.svg.82efb64f8698a267f8bf.png",
@@ -16,17 +16,18 @@
     "static/media/php.png": "/portfolio/static/media/php.6c4b317ecc5c5e8879fb.png",
     "static/media/pandas.png": "/portfolio/static/media/pandas.a705425bd546f58dda11.png",
     "static/media/solera-logo-icon.svg": "/portfolio/static/media/solera-logo-icon.30b581fccc5fcf12d38c23fd0d87e5f8.svg",
+    "static/media/yd_logo.svg": "/portfolio/static/media/yd_logo.538078991a062c5c58d84862c3c6b4a2.svg",
     "index.html": "/portfolio/index.html",
     "static/media/phone.svg": "/portfolio/static/media/phone.22904118b466d50710a6927da97da9cf.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.9e52cf326e0bbf3cd9a3378906c0d35c.svg",
     "static/media/mail.svg": "/portfolio/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
     "static/media/at-sign.svg": "/portfolio/static/media/at-sign.453d6aa23f31b71d7e47fe667153245c.svg",
     "main.97988864.css.map": "/portfolio/static/css/main.97988864.css.map",
-    "main.03b4f35e.js.map": "/portfolio/static/js/main.03b4f35e.js.map",
+    "main.2b8b0c70.js.map": "/portfolio/static/js/main.2b8b0c70.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97988864.css",
-    "static/js/main.03b4f35e.js"
+    "static/js/main.2b8b0c70.js"
   ]
 }
