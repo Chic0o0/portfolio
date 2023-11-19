@@ -22,6 +22,7 @@ import Java from './../../media/java_original_logo_icon_146458.png'
 import Spring from './../../media/Spring.png'
 import Python from './../../media/Python-logo-notext.svg.png'
 import Pandas from './../../media/pandas.png'
+import YD from './../../media/yd_logo.svg'
 
 const buttonStyle = {
     background: 'none',
@@ -63,6 +64,12 @@ const Slides = () => (
                     subtitle={"Substitution"}
                     time="05/2023 - 07/2023"
                     image={ICAO}
+                />
+                <Box
+                    title={"Young dogs"}
+                    subtitle={"Full-time job"}
+                    time="11/2023 - Present"
+                    image={YD}
                 />
             </div>
         </div>
